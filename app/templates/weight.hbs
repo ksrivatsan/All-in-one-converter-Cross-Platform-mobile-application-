@@ -1,0 +1,19 @@
+<header> 
+	<h2> {{title}} </h2>
+</header>
+
+<hr>
+
+<div class="page">
+	<p> Convert units from </p>
+		{{input value=pounds}}
+		<p class="description">
+			Pounds
+	<p> to </p>
+		{{input value=kgs}}
+		<p class="description">
+			Kilograms
+</div>
+<div id="return_home">
+	{{#link-to 'index'}} Go Back {{/link-to}}
+</div>

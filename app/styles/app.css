@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 700px;
+  font-size: 20px;
+  font-family: 'HelveticaNeue-Light', Helvetica, Arial, Sans-Serif;
+  background: grey;
+}
+body a {
+  color: white;
+  text-decoration: none;
+}
+body h1,
+body h2,
+body h3,
+body h4 {
+  font-weight: normal;
+  margin: 0px;
+  text-align: center;
+}
+body h1 {
+  font-size: 40px;
+  font-family: 'HelveticaNeue-UltraLight', Helvetica, Arial, Sans-Serif;
+}
+body hr {
+  margin: 0px;
+}
+body .button {
+  border: 2px;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 40px;
+  background-color: green;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 20px;
+}
+body .page {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15%;
+  text-align: center;
+}
+body #return_home {
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 100px;
+  font-weight: bold;
+  clear: both;
+  bottom: 0;
+}
+body .description {
+  margin-top: 20px;
+}

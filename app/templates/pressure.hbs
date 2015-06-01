@@ -1,0 +1,28 @@
+<header> 
+	<h2> {{title}} </h2>
+</header>
+
+<hr>
+
+<div class="page">
+	<p> Convert units from </p>
+		{{view Ember.Select
+			content=firstSelectOptions
+			optionValuePath="content.value"
+			optionLabelPath="content.label"
+			selectionBinding=selectedFirstOption
+			class=""}}
+		
+		{{input value=firstInputValue}}
+		
+		{{view Ember.Select
+			content=secondSelectOptions
+			optionValuePath="content.value"
+			optionLabelPath="content.label"
+			selectionBinding=selectedSecondOption
+			class=""}}
+		{{input value=outputValue}}
+</div>
+<div id="return_home">
+	{{#link-to 'index'}} Go Back {{/link-to}}
+</div>
