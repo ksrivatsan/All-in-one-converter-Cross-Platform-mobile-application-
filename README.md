@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Project
 
 This README outlines the details of collaborating on this Ember application.
@@ -51,3 +52,7 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+=======
+# All-in-one-converter-Cross-Platform-mobile-application-
+All in one converter to convert real time currency exchange rate using API calls. Also used to different units like speed, weight, temperature, distance, pressure etc.
+>>>>>>> 054e2ada85f5e959e094b40b67fe7fcdec1e86b8
